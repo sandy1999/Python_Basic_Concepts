@@ -23,3 +23,23 @@ print("There will be ",cars_not_driven," empty cars today")
 print("We can transport ",carpool_capacity," passengers today")
 print("We have ",passengers," passengers to car pool today")
 print("We need to put about ", average_passenger_per_car," in each car")
+
+# some more variable and printing 
+
+my_name = "Sanidhya"
+my_age = 20
+my_height = 1.76 #cm
+my_weight = 178 #lbs
+my_eyes = 'Blue'
+my_teeth = 'White'
+my_hair = 'Black'
+
+print(f"Lets talk about {my_name}")
+print(f"He is {my_height} inches tall")
+print(f"He is {my_weight} pounds heavy")
+print("Actually that's not too heavy")
+print(f"He's got {my_eyes} eyes and {my_hair} hair.")
+print(f"He's teeth are usually {my_teeth} depending on the coffee.")
+
+total = my_age + my_height + my_weight
+print(f"If i add {my_age}, {my_weight}, {my_height} I get {total}") 
