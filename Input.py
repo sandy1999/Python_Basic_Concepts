@@ -16,3 +16,17 @@ height = input("How tall are you? ")
 weight = float(input("How much do you weigh? "))
 
 print("So you're {} old, {} tall and {} heavy.".format(age,height,weight))
+
+# Parameters,Unpacking,Variables
+
+from sys import argv
+
+script, first, second, third = argv
+
+print("The script is called :",script)
+print("The first variable is :",first)
+print("The second variable is :",second)
+print("The third variable is :",third)
+
+
+# Prompting and passing 
