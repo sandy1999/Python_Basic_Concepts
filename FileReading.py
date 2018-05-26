@@ -23,3 +23,7 @@ text_again = open(filename)
 
 #printing the contents of file 
 print(text_again.read())
+
+#closing the files and destroying the file objects 
+text.close()
+text_again.close()
