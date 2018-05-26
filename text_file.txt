@@ -1,0 +1,4 @@
+This is an example text written. 
+I am happy that ill be read through a python script.
+
+Nice to meet you !
